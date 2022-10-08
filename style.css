@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(22, 19, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+#container{
+    margin-top: 8rem;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+#profile *{
+    margin: 0;
+}
+
+#profile h1{
+    margin-top: 20px;
+}
+
+#profile h1 span{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#profile p{
+    margin-top: 5px;
+    max-width: 200px;
+    text-align: center;
+}
+
+#profile img{
+    border: 2px solid #05FF69;
+    border-radius: 50%;
+}
+
+#profile img:hover{
+    border: 2px solid #a10fbe;
+}
+
+@keyframes example {
+    0% {opacity: 90%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+#mentoria{
+    padding: 20px;
+    margin:  20px 0 40px 0 ;
+}
+
+#social-medias{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(201,204,209,10%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: small;
+    margin-top: -38px;
+}
+  
+a{
+    padding: 14px 100px;
+    margin-bottom:30px;
+    border-radius: 20px;
+    background: #c9ccd1;
+    border: 2px solid #05FF69;
+    -webkit-box-shadow: inset 4px 4px 33px -20px #000000; 
+    box-shadow: inset 4px 4px 33px -20px #000000;
+    color: #111;
+    /* font-weight: bold; */
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+#mentoria a{
+    padding: 14px 100px;
+    margin-bottom:30px;
+    border-radius: 20px;
+    background: #c9ccd1;
+    border: 2px solid #a10fbe;
+    -webkit-box-shadow: inset 4px 4px 33px -20px #000000; 
+    box-shadow: inset 4px 4px 33px -20px #000000;
+    color: #a10fbe;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+a:hover{
+    border: 2px solid #a10fbe;
+    color: #a10fbe;
+}
+
+#mentoria a:hover{
+    border: 2px solid #05FF69;
+    color: #05FF69;
+    background-color: rgb(22, 19, 19);
+}
+
+#social-medias{
+    margin-bottom: 30px;
+}
+
+#social-medias a:first-of-type{
+    margin-top: 15px;
+}
+#social-medias a:last-of-type{
+    margin-bottom: 15px;
+}
+
+a:active{
+    opacity: 80%;
+}
