@@ -52,3 +52,8 @@ body{
     50% {opacity: 0%;}
     100% {opacity: 100%;}
 }
+
+h2{
+    color: darkorange;
+    text-align: center;
+}
